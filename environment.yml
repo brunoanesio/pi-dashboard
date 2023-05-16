@@ -1,0 +1,10 @@
+name: projeto
+dependencies:
+  - numpy
+  - pandas
+  - panel
+  - holoviews
+  - matplotlib
+  - seaborn
+  - tk
+  - jupyter
