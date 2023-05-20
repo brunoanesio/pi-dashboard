@@ -13,15 +13,13 @@ conda env create -f environment.yml
 conda activate projeto
 ```
 
-4. Abra o notebook usando jupyter/colab/etc
-
-   _ou_
-
-   Rode o script python da forma que preferir
-
-5. Também é possível utilizar via web com o seguinte comando (pode ser que demore para abrir):
+4. De preferência utilize o script.py com o seguinte comando:
 
 ```bash
-# Também pode-se usar script.py no lugar de main.ipynb
-panel serve main.ipynb --show --autoreload
+# Também pode-se usar main.ipynb no lugar de script.py
+panel serve script.py --show --autoreload
 ```
+
+_ou_
+
+Abra o notebook usando jupyter/colab/etc
