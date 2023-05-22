@@ -16,10 +16,5 @@ conda activate projeto
 4. De preferência utilize o script.py com o seguinte comando:
 
 ```bash
-# Também pode-se usar main.ipynb no lugar de script.py
 panel serve script.py --show --autoreload
 ```
-
-_ou_
-
-Abra o notebook usando jupyter/colab/etc
